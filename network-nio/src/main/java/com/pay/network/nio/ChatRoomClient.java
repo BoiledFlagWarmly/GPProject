@@ -34,7 +34,7 @@ public class ChatRoomClient {
         ClientWriter clientWriter = new ClientWriter();
         clientWriter.start();
 
-        while (true) {
+        while (!Thread.currentThread().isInterrupted()) {
 
             int preparedChannel = selector.select();
             if (preparedChannel == 0) {
