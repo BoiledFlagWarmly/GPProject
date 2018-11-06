@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/network.iml" filepath="$PROJECT_DIR$/network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-bio/network-bio.iml" filepath="$PROJECT_DIR$/network-bio/network-bio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-nio/network-nio.iml" filepath="$PROJECT_DIR$/network-nio/network-nio.iml" />
+    </modules>
+  </component>
+</project>
